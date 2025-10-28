@@ -8,7 +8,7 @@ Project-URL: Homepage, https://github.com/LinusRingstad/Langmuir
 Project-URL: Issues, https://github.com/LinusRingstad/Langmuir/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.13
+Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Dynamic: license-file
