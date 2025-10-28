@@ -1,4 +1,4 @@
-# langmuir-LR: Basic Langmuir Probe Data Analysis in Python
+# langmuir-LR: Langmuir Probe Analysis
 
 Langmuir-LR is a Python package for **analyzing Langmuir probe data**. It provides tools for reading I-V curves, estimating plasma parameters (electron temperature, density, plasma potential, floating potential), and computing the **electron energy distribution function (EEDF)**.
 
