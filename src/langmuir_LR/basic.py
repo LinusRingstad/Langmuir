@@ -248,9 +248,8 @@ def interp_laframboise(V,I,Vp,Vf,Te,ne,settings):
 
     xp = e*(Vp-V[200]) / (k*Te_K)
     
-    with resources.files("langmuir_LR.data").joinpath("lafram.csv").open("r") as f:
-        data_j_i_star = pd.read_csv(f)
-    return df
+    with resources.files(__package__).joinpath("data/lafram.csv").open("r") as f:
+        return pd.read_csv(f)
     
     Xp_values = data_j_i_star["Xp"].values.astype(float)
     ratio_values = data_j_i_star.columns[1:].astype(float)
