@@ -85,7 +85,7 @@ from langmuir_LR.compute import find_ne_te_iterative
 Te, ne, Ie = find_ne_te_iterative(settings, max_iterations=1000, tolerance=1e-4)
 ```
 
-* Iteratively refines `Te` and `ne` using the **Laframboise correction**
+* Iteratively refines `Te` and `ne` using the **Laframboise algorithm**
 * Returns electron temperature (eV), density (m^-3), and electron current `Ie`
 
 ---
@@ -136,7 +136,7 @@ plt.show()
 ```
 
 * Shows per-particle EEDF and corresponding Maxwellian distribution
-* Automatically normalizes EEDF if `calibrate=True`
+* Normalizes EEDF if `calibrate=True`
 
 ---
 
