@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+Langmuir_LR.egg-info/PKG-INFO
+Langmuir_LR.egg-info/SOURCES.txt
+Langmuir_LR.egg-info/dependency_links.txt
+Langmuir_LR.egg-info/top_level.txt
