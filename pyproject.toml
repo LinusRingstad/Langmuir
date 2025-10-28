@@ -1,6 +1,6 @@
 [project]
 name = "langmuir_LR"
-version = "0.0.5"
+version = "0.0.6"
 authors = [
   { name="Linus Ringstad", email="linussr2@illinois.edu" },
 ]
@@ -17,3 +17,7 @@ license-files = ["LICEN[CS]E*"]
 [project.urls]
 Homepage = "https://github.com/LinusRingstad/Langmuir"
 Issues = "https://github.com/LinusRingstad/Langmuir/issues"
+
+
+[tool.setuptools.package-data]
+"langmuir_LR" = ["data/*.csv"]

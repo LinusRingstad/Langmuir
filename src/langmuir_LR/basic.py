@@ -5,6 +5,7 @@ import scipy as sp
 import pandas as pd
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
+from importlib import resources
 
 
 class lp_Settings:
@@ -246,9 +247,10 @@ def interp_laframboise(V,I,Vp,Vf,Te,ne,settings):
     rat = guess_ratio(Te,ne,settings)
 
     xp = e*(Vp-V[200]) / (k*Te_K)
-
-
-    data_j_i_star = pd.read_csv('lafram.csv')
+    
+    with resources.files("langmuir_LR.data").joinpath("lafram.csv").open("r") as f:
+        data_j_i_star = pd.read_csv(f)
+    return df
     
     Xp_values = data_j_i_star["Xp"].values.astype(float)
     ratio_values = data_j_i_star.columns[1:].astype(float)

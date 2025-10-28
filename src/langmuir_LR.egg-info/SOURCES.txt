@@ -9,3 +9,4 @@ src/langmuir_LR.egg-info/PKG-INFO
 src/langmuir_LR.egg-info/SOURCES.txt
 src/langmuir_LR.egg-info/dependency_links.txt
 src/langmuir_LR.egg-info/top_level.txt
+src/langmuir_LR/data/lafram.csv
