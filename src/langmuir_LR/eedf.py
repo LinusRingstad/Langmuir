@@ -3,7 +3,7 @@
 import numpy as np
 from scipy.signal import savgol_filter
 from scipy.interpolate import interp1d
-from basic import read_file, plasma_potential
+from langmuir_LR.basic import read_file, plasma_potential
 
 
 def maxwellian(E_eV, Te_eV) -> np.ndarray:

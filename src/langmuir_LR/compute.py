@@ -3,7 +3,7 @@ import scipy as sp
 import pandas as pd
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
-from basic import read_file,plasma_potential, floating_potential, guess_Te, guess_ne, interp_laframboise
+from langmuir_LR.basic import read_file,plasma_potential, floating_potential, guess_Te, guess_ne, interp_laframboise
 
 
 def find_ne_te_iterative(settings, max_iterations=1000, tolerance=1e-4):
