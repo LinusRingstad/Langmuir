@@ -1,12 +1,13 @@
 LICENSE
+MANIFEST.in
 README.md
 pyproject.toml
 src/langmuir_LR/__init__.py
 src/langmuir_LR/basic.py
 src/langmuir_LR/compute.py
 src/langmuir_LR/eedf.py
+src/langmuir_LR/lafram.csv
 src/langmuir_LR.egg-info/PKG-INFO
 src/langmuir_LR.egg-info/SOURCES.txt
 src/langmuir_LR.egg-info/dependency_links.txt
 src/langmuir_LR.egg-info/top_level.txt
-src/langmuir_LR/data/__init__.py
