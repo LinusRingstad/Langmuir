@@ -1,5 +1,5 @@
 Metadata-Version: 2.4
-Name: Langmuir_LR
+Name: langmuir_LR
 Version: 0.0.2
 Summary: Package for langmuir probe analysis.
 Author-email: Linus Ringstad <linussr2@illinois.edu>
