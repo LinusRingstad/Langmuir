@@ -1,6 +1,6 @@
 [project]
 name = "langmuir_LR"
-version = "0.1.0"
+version = "0.1.2"
 authors = [
   { name="Linus Ringstad", email="linussr2@illinois.edu" },
 ]
