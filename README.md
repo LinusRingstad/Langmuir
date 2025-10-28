@@ -16,10 +16,8 @@ pip install .
 or from **TestPyPI**:
 
 ```bash
-pip install -i https://test.pypi.org/simple/ langmuir_LR
+pip install -i https://test.pypi.org/simple/ langmuir-LR
 ```
-
-> **Note:** Use underscores `_` instead of dashes `-` when importing.
 
 ---
 
