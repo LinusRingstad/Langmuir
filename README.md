@@ -1,5 +1,3 @@
-Here’s a detailed README in **Markdown** that explains your Langmuir probe analysis package, the main classes and functions, and examples of usage. You can copy this as plaintext into your `README.md` file:
-
 ````markdown
 # langmuir-LR: Basic Langmuir Probe Data Analysis in Python
 
